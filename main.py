@@ -14,6 +14,7 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import WebDriverWait
 import threading
 
+
 class MainBot():
     def __init__(self):
         self.driver = self.launchChrome()
